@@ -8,4 +8,4 @@ from django.http import HttpResponse
 
 
 def index(request):
-    return HttpResponse("Gautamji is best!!!")
+    return render(request, 'index.html')
