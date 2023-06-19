@@ -1,11 +1,6 @@
-#All the nexessery paths for the blogSite
-# Made with love from KrishnaGautam 
-# github.com/gtmkr1234
-
-
-from django.shortcuts import render
 from django.http import HttpResponse
+from django.shortcuts import render
 
 
-def index(request):
-    return render(request, 'index.html')
+def home(request):
+    return render(request,"index.html")
