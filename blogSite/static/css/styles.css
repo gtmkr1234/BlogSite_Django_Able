@@ -1,0 +1,47 @@
+body{
+    background-color: palegoldenrod;
+}
+.navbar-brand{
+    color: white !important;
+    font-size: 18pt;
+}
+.navbar-brand:hover{
+    color: tan;
+}
+input{
+    width: 60% ! important;
+}
+.login-pg{
+    margin-top: 50pt;
+}
+.navelment-name{
+    color: white;
+    font-size: 15pt;
+}
+.outerbox{
+    background-color: white;
+    border: 1px dotted #000; 
+    width: 200px; 
+    min-height: 100%; 
+    box-sizing: border-box;
+    padding: 20px; 
+    border-radius: 10px;
+}
+
+.plus {
+    display: inline-block;
+    width: 50px; /* adjust size as needed */
+    height: 50px; /* adjust size as needed */
+    border-radius: 50%; /* creates circular shape */
+    background-color: #007bff; /* sets button color */
+    text-align: center;
+    line-height: 50px; /* centers the "+" sign vertically */
+    font-size: 24px; /* adjusts size of "+" sign */
+    color: #ffffff; /* sets color of "+" sign */
+  }
+  
+  /* CSS for the "+" sign inside the circular button */
+  .plus::after {
+    content: "+"; /* adds "+" as content inside the button */
+  }
+  
