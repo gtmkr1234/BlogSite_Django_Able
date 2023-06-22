@@ -11,9 +11,6 @@ body{
 input{
     width: 60% ! important;
 }
-.login-pg{
-    margin-top: 50pt;
-}
 .navelment-name{
     color: white;
     font-size: 15pt;
@@ -38,10 +35,5 @@ input{
     line-height: 50px; /* centers the "+" sign vertically */
     font-size: 24px; /* adjusts size of "+" sign */
     color: #ffffff; /* sets color of "+" sign */
-  }
-  
-  /* CSS for the "+" sign inside the circular button */
-  .plus::after {
-    content: "+"; /* adds "+" as content inside the button */
   }
   
